@@ -1,0 +1,724 @@
+body {
+    background-color: #ffffff;
+}
+header{  
+    margin: auto;
+    position: relative;
+    width: 1366px;
+    height: 120px;  
+}
+.header_logo{  /* sparkle */
+    position: relative;
+    width: 161px;
+    height: 147px;
+    left: 62px;
+    top: -9px;
+    z-index:36;
+}
+.menu{   
+    padding-left: 64px;
+    display: flex;
+    margin-left:264px;
+    width:999px;
+    min-width:999px;
+    height:45px;
+    margin-top:-105px;
+    margin-bottom:0px;
+    min-height:45px;
+    list-style-type: none;
+    background-color: white;
+}
+.menu .menu_link { 
+    position: relative;
+    text-decoration: none;
+    color: #060606;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    z-index: 6; 
+  }
+  .hamburger{
+    padding-top: 35px;
+    padding-right: 200px;
+    z-index: 62;
+    display: none;
+  }
+  .menu_link:hover{ 
+    text-decoration-line: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: rgba(255, 168, 0, 1);
+  }
+
+.ideja{
+    margin-left: -25px;
+ }
+.piesaki{
+    padding-left: 36px;
+}
+.uznemejiem{
+    padding-left: 37px;
+}
+.banka{
+    padding-left: 37px;
+}
+.atbalsta{
+    padding-left: 38px;
+}
+.stasti{
+    padding-left: 34px;
+}
+.lv{
+    padding-left: 64px;
+}
+
+.header_white{
+    display:flex;
+    margin-top:-128px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width:1366px;
+    min-width:1366px;
+    height:128px;
+    min-height:128px;
+    z-index: 4;   
+}
+
+
+
+.promo{ 
+    background: url('../img/Sparkle\ Video\ 1.png');
+    object-fit: cover;
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:-80px;  /* lai paceltu uz augšu bilditi */
+    width: 1366px;
+    height: 722px;
+    left: 0px;
+    z-index: 3;
+}
+.Vector-8{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    z-index:34;
+    pointer-events:auto;
+    width:86px;
+    min-width:86px;
+    height:83px;
+    margin-top:0px;
+    margin-bottom:0px;
+    min-height:83px;
+    cursor:pointer;
+    content:url(../img/Vector\ \(8\).png); 
+  }
+.Ellipse-5{
+    display:flex;
+    z-index:33;
+    pointer-events:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width:80px;
+    min-width:80px;
+    height:80px;
+    min-height:80px;
+    content:url(../img/Ellipse\ 5.png); 
+}
+
+
+
+.third{
+    margin-top: -51px;  /* bloks pacelas uz augsu */
+    display:flex;
+    justify-content: center;
+    width: auto;
+    height: 414px;
+    position: relative;   
+}
+.third_text {
+    display: flex;
+    justify-content: center;
+    color: rgba(47, 72, 88, 1);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    margin: 120px 356px 150px 359px;
+    height: 114px;
+    width: 654px;
+    position: absolute;
+}
+
+
+
+.picture {
+  object-fit: cover;
+    margin-top: -20px;
+    display:flex;
+    justify-content: center;   
+}
+.photo {
+    width: 100vh;
+    display: flex;
+    justify-content: center;   
+}
+.foto2{
+    margin-top: -10px;
+}
+.foto1{
+    margin-top: 9px;
+}
+.foto{
+    margin-top: 17px;
+}
+.photo_block1 {
+    display: grid;
+    grid-template: 1fr/328px 336px;
+    align-items: center;
+}
+.photo_block2 {  
+    display: grid;
+    grid-template: 180px 184px/298px 406px;
+    align-items: center;  
+}
+.photo_block2-third {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;  
+}
+.line-top {
+    position: absolute;
+    margin-top: -10px;
+}
+.line-bottom {
+    position: absolute;
+    z-index: 36;
+    margin-top: 333px;
+}
+@media (max-width: 767px) {
+    .photo {
+        display: flex;
+        flex-direction: column-reverse;
+    }  
+}
+
+
+
+
+
+.pogas {
+    display:flex;
+    justify-content: center;
+    margin-top:234px;
+    width: auto;
+    background-color: #ffffff;  
+}
+.flex-parent {display: flex;}
+.jc-center {justify-content: center;}
+
+button.btn1{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    margin-right: 84px;
+    width: 233px;
+    height: 50px;
+}
+button.btn2{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    width: 233px;
+    height: 50px;
+}
+.pogas_text {  
+    margin-left: 188px ;
+    margin-top: -69px ;
+    position: absolute;
+    width: 394px;
+    height: 29px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2F4858;
+}
+.pogas_text2 {
+    margin-left: 665px ;
+    margin-top: -69px ;
+    position: absolute;
+    width: 500px;
+    height: 29px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2F4858;
+}
+
+
+
+
+.message{
+    margin-top: -20px;
+}
+h1 {
+  padding-bottom: 9px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44.46px;
+    color: #2F4858;
+    text-align: center;
+}
+::placeholder{
+    color:rgba(47, 72, 88, 1);
+    font-family: 'Montserrat';
+    font-weight:500;
+    font-size: 18px;
+    line-height: 21.94px;  
+}
+form { max-width:612px; margin:50px auto; }
+.feedback-input1 {
+    color:rgba(47, 72, 88, 1);
+    font-family: 'Montserrat';
+    font-weight:400;
+    font-size: 18px;
+    line-height: 21.94px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgba(196, 196, 196, 0.4);
+    transition: all 0.3s;
+    padding-left: 9px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    height: 43px;
+    width:296px;
+    box-sizing: border-box;
+    letter-spacing: -0.015em;
+  }
+  .feedback-input2 {
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:rgba(47, 72, 88, 1);
+    font-family: 'Montserrat';
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 21.94px;
+    background-color: rgba(196, 196, 196, 0.4);
+    border:none;
+    transition: all 0.3s;
+    padding: 13px 13px 10px 13px;
+    margin-bottom: 15px;
+    height: 43px;
+    width:296px;
+    box-sizing: border-box;
+    letter-spacing: -0.015em;
+  }
+  .feedback-input3 {
+    color:rgba(47, 72, 88, 1);
+    font-family: 'Montserrat';
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 6px;
+    line-height: 21.94px;
+    background-color: rgba(196, 196, 196, 0.4);;
+    border:none;
+    transition: all 0.3s;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 43px;
+    width:612px;
+    box-sizing: border-box;
+    letter-spacing: -0.015em;
+  }
+.feedback-input { /*   lielais lauks */
+    width: 612px;
+    height: 232px;
+  color:rgba(47, 72, 88, 1);
+  font-family: 'Montserrat';
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 6px;
+  line-height: 21.94px;
+  background-color: rgba(196, 196, 196, 0.4);;
+  border:none;
+  transition: all 0.3s;
+  padding-top: 9px;
+  padding-left: 10px;
+  margin-bottom: 9px;
+  width:100%;
+  box-sizing: border-box;
+  letter-spacing: -0.015em;
+}
+.email_text2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F4858;
+    margin-bottom: 33px;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 53px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F4858;
+  }
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;  
+}
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 16px;
+    width: 16px;
+    background-color: #E7E7E7;;
+    border-radius: 4px;
+}
+.container:hover input ~ .checkmark {background-color: #ccc;}
+.container input:checked ~ .checkmark {background-color: #2196F3;}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {display: block;}
+.container .checkmark:after {
+    left: 5px;
+    top: 3px;
+    width: 3px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg); 
+}
+textarea {
+  width: 612;
+  height: 232px;
+  line-height: 21.94px;
+  resize:none;
+}
+[type="submit"] {
+  display: grid;
+  margin: 0 216px 151px 214px;
+  text-align: center;
+  font-family: 'Montserrat';
+  width: 182px;
+  height: 62px;
+  background:#FFA800;
+  border-radius:30px;
+  border:none;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  transition: all 0.3s;
+  font-weight:500;
+  padding: 0 0;
+}
+
+
+
+
+
+
+.support{
+    display: grid;
+    
+}
+.orange{  
+    margin: auto;
+    position: relative;
+    width: 1366px;
+    height: 450px;  
+    z-index: -1;
+}
+.support h1{
+font-size: 24px;
+line-height: 36px;
+margin-top: -350px;
+margin-bottom: 0px;
+}
+.support_grid{
+   
+  display: grid;  
+  align-items:center;
+  width: 1366px;
+  margin: auto; 
+  grid-template-columns: 0px 0px 0px 0px;
+  margin-top: -251px;
+}
+
+.teikums{
+    padding-left: 168px; 
+} 
+.panda{
+    padding-left: 495px;
+}
+.bee{
+    padding-left: 789px; 
+}
+.linearis{
+    padding-left: 1113px;
+}
+
+
+
+
+
+.footer{ 
+    background: url('../img/Union.png');
+    position:relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1366px;
+    height: 376px;
+}
+.footer_logo{
+    padding-top: 72px;
+    padding-left: 61px;
+}
+.footer_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 182px;
+    height: 38px;
+    padding-top: 67px;
+}
+.footer_menu{
+    width: 179px;
+    padding-left: 122px;
+   height: 230px;
+   }
+.footer .menu_link{
+    padding-top: 18px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.footer .row {
+    padding: 1em 1em;
+  }
+  .footer .row.primary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 70px;
+  }
+  .footer .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 81px;
+  }
+  .ideja2{
+    padding-left: 3px;
+  }
+.sapni2{
+    padding-top: 15px;
+  }
+.uznemejiem2{
+    padding-top: 18px;
+}
+.banka2{
+    padding-top: 14px;
+}
+.atbalsta2{
+    padding-top: 16px;
+}
+.iedvesmas2{
+    padding-top: 18px;
+}
+  .footer h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    width: 100%;
+    text-align: left;
+    color: white;
+    margin: -2px 0 16px 0; 
+  }
+  .SWEDBANK{
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .footer h4 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    width: 100%;
+    color: white;
+    margin: 0 0 15px -4px; 
+    text-align: right;
+  }
+  .footer .column_links2 {
+    width: 400px;
+    padding-left: 29px;
+  }
+  .email2{
+    padding-left: 118px;
+    padding-bottom: 11px;
+  }
+  .number{
+    padding-left: 269px;
+    padding-bottom: 10px;
+  }
+  .iela{
+    width: 315px;
+    padding-left: 115px;
+  }
+  .footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 53px;
+  }
+
+  .footer ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .footer_link{
+    padding-left: 315px;
+  }
+  .footer_link2{
+    padding-left: 25px;
+  }
+  .footer_text2{
+    padding-top: 47px;
+    padding-right: 2px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+ 
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #FFA800;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+  @media (max-width: 769px) {
+    .header_logo{  /* sparkle */
+      width: 128px;
+      height: 118px;
+  }
+
+    .menu .menu_link{
+    z-index: 1; 
+    }
+/*     .header_white{
+      margin-right: 282px;
+      height:96px;
+      min-height:96px;
+      width:768px;
+      min-width: 768px;
+     
+  } */
+/*     .hamburger{
+      display: block;
+      padding-top: 35px;
+      padding-right: 124px;
+   
+    }
+ */
+
+
+  .promo{
+    background: url('../img/Sparkle\ Video\ 768.png');
+    width: 768px;
+    height: 406px;
+    object-fit: cover; 
+}
+
+
+.third_text {
+  margin: 120px 80px 150px 80px;
+  height: 140px;
+  width: 608px;
+}
+
+
+
+button.btn1{
+  margin-right: -80px;
+}
+
+.pogas_text {  
+  margin-left: 605px;
+  margin-top: -69px ;
+  width: 233px;
+  height: 54px;
+  font-size: 18px;
+    line-height: 26.68px;
+
+}
+.pogas_text2 {
+  text-align: center;
+  margin-left: 188px ;
+  margin-top: -69px ;
+  width: 233px;
+  height: 29px;
+  font-size: 18px;
+  line-height: 26.68px;
+  
+}
+
+}
